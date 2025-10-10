@@ -1,7 +1,7 @@
 //preprevess directive
 #include<stdio.h>
 #include<math.h>
-#define ShowSenPa printf("--------------------");
+#define ShowSenPa printf("--------------------\n");
 #define Smile "^_^"
 
 //global declaration
@@ -25,8 +25,4 @@ int main (){        //main funtion}
 
 void showHi(){      //user-defined function
     printf("Hi\n");
-}
-
-void showHi(){  //user-defined function
-
 }
